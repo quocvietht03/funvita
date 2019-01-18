@@ -323,7 +323,7 @@ Redux::setSection( $opt_name, array(
 			'title'    => esc_html__( 'Menu First Level Color', 'funvita' ),
 			'subtitle' => esc_html__( 'Controls the color menu first level.', 'funvita' ),
 			'default'  => array(
-				'regular' => '#1d274e',
+				'regular' => '#0f3057',
 				'hover'   => '#015dc7',
 				'active'  => '#015dc7',
 			),
@@ -356,7 +356,7 @@ Redux::setSection( $opt_name, array(
 			'title'    => esc_html__( 'Menu Sub Level Color', 'funvita' ),
 			'subtitle' => esc_html__( 'Controls the color menu sub level.', 'funvita' ),
 			'default'  => array(
-				'regular' => '#1d274e',
+				'regular' => '#0f3057',
 				'hover'   => '#015dc7',
 				'active'  => '#015dc7',
 			),
@@ -409,7 +409,7 @@ Redux::setSection( $opt_name, array(
 			'subtitle' => esc_html__( 'Controls the color toggle menu button of the header mobile.', 'funvita' ),
 			'active'   => false,
 			'default'  => array(
-				'regular' => '#1d274e',
+				'regular' => '#0f3057',
 				'hover'   => '#015dc7',
 			),
 			'required' 		=> array('h1_menu_canvas' , '=', '1'),
@@ -543,7 +543,7 @@ Redux::setSection( $opt_name, array(
 			'title'    => esc_html__( 'Menu First Level Color Stick', 'funvita' ),
 			'subtitle' => esc_html__( 'Controls the color menu first level of the header stick.', 'funvita' ),
 			'default'  => array(
-				'regular' => '#1d274e',
+				'regular' => '#0f3057',
 				'hover'   => '#015dc7',
 				'active'  => '#015dc7',
 			),
@@ -587,7 +587,7 @@ Redux::setSection( $opt_name, array(
 			'subtitle' => esc_html__( 'Controls the color toggle menu button of the header mobile.', 'funvita' ),
 			'active'   => false,
 			'default'  => array(
-				'regular' => '#1d274e',
+				'regular' => '#0f3057',
 				'hover'   => '#015dc7',
 			),
 		),
@@ -670,7 +670,7 @@ Redux::setSection( $opt_name, array(
 			'title'    => esc_html__( 'Menu Mobile First Level Color', 'funvita' ),
 			'subtitle' => esc_html__( 'Controls the color menu mobile first level.', 'funvita' ),
 			'default'  => array(
-				'regular' => '#1d274e',
+				'regular' => '#0f3057',
 				'hover'   => '#015dc7',
 				'active'  => '#015dc7',
 			),
@@ -703,7 +703,7 @@ Redux::setSection( $opt_name, array(
 			'title'    => esc_html__( 'Menu Mobile Sub Level Color', 'funvita' ),
 			'subtitle' => esc_html__( 'Controls the color menu mobile sub level.', 'funvita' ),
 			'default'  => array(
-				'regular' => '#1d274e',
+				'regular' => '#0f3057',
 				'hover'   => '#015dc7',
 				'active'  => '#015dc7',
 			),
@@ -948,7 +948,7 @@ Redux::setSection( $opt_name, array(
 			'letter-spacing'   => true,
 			'text-align'   => false,
 			'default'  => array(
-				'color'       => '#747da1',
+				'color'       => '#333330',
 				'font-size'   => '14px',
 				'line-height' => '24px',
 				'letter-spacing' => '0'
@@ -962,7 +962,7 @@ Redux::setSection( $opt_name, array(
 			'subtitle' => esc_html__( 'Controls the link color of header middle.', 'funvita' ),
 			'active'    => false,
 			'default'  => array(
-				'regular' => '#1d274e',
+				'regular' => '#0f3057',
 				'hover'   => '#015dc7',
 			),
 			'output'   => array('.bt-header-v2 .bt-header-desktop .bt-middle a')
@@ -1066,7 +1066,7 @@ Redux::setSection( $opt_name, array(
 			'title'    => esc_html__( 'Menu First Level Color', 'funvita' ),
 			'subtitle' => esc_html__( 'Controls the color menu first level.', 'funvita' ),
 			'default'  => array(
-				'regular' => '#1d274e',
+				'regular' => '#0f3057',
 				'hover'   => '#015dc7',
 				'active'  => '#015dc7',
 			),
@@ -1099,7 +1099,7 @@ Redux::setSection( $opt_name, array(
 			'title'    => esc_html__( 'Menu Sub Level Color', 'funvita' ),
 			'subtitle' => esc_html__( 'Controls the color menu sub level.', 'funvita' ),
 			'default'  => array(
-				'regular' => '#1d274e',
+				'regular' => '#0f3057',
 				'hover'   => '#015dc7',
 				'active'  => '#015dc7',
 			),
@@ -1153,7 +1153,7 @@ Redux::setSection( $opt_name, array(
 			'subtitle' => esc_html__( 'Controls the color toggle menu button of the header mobile.', 'funvita' ),
 			'active'   => false,
 			'default'  => array(
-				'regular' => '#1d274e',
+				'regular' => '#0f3057',
 				'hover'   => '#015dc7',
 			),
 			'required' 		=> array('h2_menu_canvas' , '=', '1'),
@@ -1308,7 +1308,7 @@ Redux::setSection( $opt_name, array(
 			'title'    => esc_html__( 'Menu First Level Color Stick', 'funvita' ),
 			'subtitle' => esc_html__( 'Controls the color menu first level of the header stick.', 'funvita' ),
 			'default'  => array(
-				'regular' => '#1d274e',
+				'regular' => '#0f3057',
 				'hover'   => '#015dc7',
 				'active'  => '#015dc7',
 			),
@@ -1367,7 +1367,7 @@ Redux::setSection( $opt_name, array(
 			'subtitle' => esc_html__( 'Controls the color toggle menu button of the header mobile.', 'funvita' ),
 			'active'   => false,
 			'default'  => array(
-				'regular' => '#1d274e',
+				'regular' => '#0f3057',
 				'hover'   => '#015dc7',
 			),
 		),
@@ -1435,7 +1435,7 @@ Redux::setSection( $opt_name, array(
 			'title'    => esc_html__( 'Menu Mobile First Level Color', 'funvita' ),
 			'subtitle' => esc_html__( 'Controls the color menu mobile first level.', 'funvita' ),
 			'default'  => array(
-				'regular' => '#1d274e',
+				'regular' => '#0f3057',
 				'hover'   => '#015dc7',
 				'active'  => '#015dc7',
 			),
@@ -1467,7 +1467,7 @@ Redux::setSection( $opt_name, array(
 			'title'    => esc_html__( 'Menu Mobile Sub Level Color', 'funvita' ),
 			'subtitle' => esc_html__( 'Controls the color menu mobile sub level.', 'funvita' ),
 			'default'  => array(
-				'regular' => '#1d274e',
+				'regular' => '#0f3057',
 				'hover'   => '#015dc7',
 				'active'  => '#015dc7',
 			),
@@ -1703,7 +1703,7 @@ Redux::setSection( $opt_name, array(
 			'letter-spacing'   => true,
 			'text-align'   => false,
 			'default'  => array(
-				'color'       => '#747da1',
+				'color'       => '#333330',
 				'font-size'   => '14px',
 				'line-height' => '24px',
 				'letter-spacing' => '0'
@@ -1717,7 +1717,7 @@ Redux::setSection( $opt_name, array(
 			'subtitle' => esc_html__( 'Controls the link color of header middle.', 'funvita' ),
 			'active'    => false,
 			'default'  => array(
-				'regular' => '#1d274e',
+				'regular' => '#0f3057',
 				'hover'   => '#015dc7',
 			),
 			'output'   => array('.bt-header-v3 .bt-header-desktop .bt-middle a')
@@ -1821,7 +1821,7 @@ Redux::setSection( $opt_name, array(
 			'title'    => esc_html__( 'Menu First Level Color', 'funvita' ),
 			'subtitle' => esc_html__( 'Controls the color menu first level.', 'funvita' ),
 			'default'  => array(
-				'regular' => '#1d274e',
+				'regular' => '#0f3057',
 				'hover'   => '#015dc7',
 				'active'  => '#015dc7',
 			),
@@ -1854,7 +1854,7 @@ Redux::setSection( $opt_name, array(
 			'title'    => esc_html__( 'Menu Sub Level Color', 'funvita' ),
 			'subtitle' => esc_html__( 'Controls the color menu sub level.', 'funvita' ),
 			'default'  => array(
-				'regular' => '#1d274e',
+				'regular' => '#0f3057',
 				'hover'   => '#015dc7',
 				'active'  => '#015dc7',
 			),
@@ -1908,7 +1908,7 @@ Redux::setSection( $opt_name, array(
 			'subtitle' => esc_html__( 'Controls the color button toggle menu canvas.', 'funvita' ),
 			'active'   => false,
 			'default'  => array(
-				'regular' => '#1d274e',
+				'regular' => '#0f3057',
 				'hover'   => '#015dc7',
 			),
 			'required' 		=> array('h3_menu_canvas' , '=', '1'),
@@ -2063,7 +2063,7 @@ Redux::setSection( $opt_name, array(
 			'title'    => esc_html__( 'Menu First Level Color Stick', 'funvita' ),
 			'subtitle' => esc_html__( 'Controls the color menu first level of the header stick.', 'funvita' ),
 			'default'  => array(
-				'regular' => '#1d274e',
+				'regular' => '#0f3057',
 				'hover'   => '#015dc7',
 				'active'  => '#015dc7',
 			),
@@ -2122,7 +2122,7 @@ Redux::setSection( $opt_name, array(
 			'subtitle' => esc_html__( 'Controls the color toggle menu button of the header mobile.', 'funvita' ),
 			'active'   => false,
 			'default'  => array(
-				'regular' => '#1d274e',
+				'regular' => '#0f3057',
 				'hover'   => '#015dc7',
 			),
 		),
@@ -2190,7 +2190,7 @@ Redux::setSection( $opt_name, array(
 			'title'    => esc_html__( 'Menu Mobile First Level Color', 'funvita' ),
 			'subtitle' => esc_html__( 'Controls the color menu mobile first level.', 'funvita' ),
 			'default'  => array(
-				'regular' => '#1d274e',
+				'regular' => '#0f3057',
 				'hover'   => '#015dc7',
 				'active'  => '#015dc7',
 			),
@@ -2222,7 +2222,7 @@ Redux::setSection( $opt_name, array(
 			'title'    => esc_html__( 'Menu Mobile Sub Level Color', 'funvita' ),
 			'subtitle' => esc_html__( 'Controls the color menu mobile sub level.', 'funvita' ),
 			'default'  => array(
-				'regular' => '#1d274e',
+				'regular' => '#0f3057',
 				'hover'   => '#015dc7',
 				'active'  => '#015dc7',
 			),
@@ -2484,7 +2484,7 @@ Redux::setSection( $opt_name, array(
 			'title'    => esc_html__( 'Menu First Level Color', 'funvita' ),
 			'subtitle' => esc_html__( 'Controls the color menu first level.', 'funvita' ),
 			'default'  => array(
-				'regular' => '#1d274e',
+				'regular' => '#0f3057',
 				'hover'   => '#015dc7',
 				'active'  => '#015dc7',
 			),
@@ -2517,7 +2517,7 @@ Redux::setSection( $opt_name, array(
 			'title'    => esc_html__( 'Menu Sub Level Color', 'funvita' ),
 			'subtitle' => esc_html__( 'Controls the color menu sub level.', 'funvita' ),
 			'default'  => array(
-				'regular' => '#1d274e',
+				'regular' => '#0f3057',
 				'hover'   => '#015dc7',
 				'active'  => '#015dc7',
 			),
@@ -2570,7 +2570,7 @@ Redux::setSection( $opt_name, array(
 			'subtitle' => esc_html__( 'Controls the color toggle menu button of the header mobile.', 'funvita' ),
 			'active'   => false,
 			'default'  => array(
-				'regular' => '#1d274e',
+				'regular' => '#0f3057',
 				'hover'   => '#015dc7',
 			),
 			'required' 		=> array('honepage_menu_canvas' , '=', '1'),
@@ -2704,7 +2704,7 @@ Redux::setSection( $opt_name, array(
 			'title'    => esc_html__( 'Menu First Level Color Stick', 'funvita' ),
 			'subtitle' => esc_html__( 'Controls the color menu first level of the header stick.', 'funvita' ),
 			'default'  => array(
-				'regular' => '#1d274e',
+				'regular' => '#0f3057',
 				'hover'   => '#015dc7',
 				'active'  => '#015dc7',
 			),
@@ -2748,7 +2748,7 @@ Redux::setSection( $opt_name, array(
 			'subtitle' => esc_html__( 'Controls the color toggle menu button of the header mobile.', 'funvita' ),
 			'active'   => false,
 			'default'  => array(
-				'regular' => '#1d274e',
+				'regular' => '#0f3057',
 				'hover'   => '#015dc7',
 			),
 		),
@@ -2831,7 +2831,7 @@ Redux::setSection( $opt_name, array(
 			'title'    => esc_html__( 'Menu Mobile First Level Color', 'funvita' ),
 			'subtitle' => esc_html__( 'Controls the color menu mobile first level.', 'funvita' ),
 			'default'  => array(
-				'regular' => '#1d274e',
+				'regular' => '#0f3057',
 				'hover'   => '#015dc7',
 				'active'  => '#015dc7',
 			),
@@ -2863,7 +2863,7 @@ Redux::setSection( $opt_name, array(
 			'title'    => esc_html__( 'Menu Mobile Sub Level Color', 'funvita' ),
 			'subtitle' => esc_html__( 'Controls the color menu mobile sub level.', 'funvita' ),
 			'default'  => array(
-				'regular' => '#1d274e',
+				'regular' => '#0f3057',
 				'hover'   => '#015dc7',
 				'active'  => '#015dc7',
 			),
@@ -3136,7 +3136,7 @@ Redux::setSection( $opt_name, array(
 			'title'    => esc_html__( 'Menu First Level Color', 'funvita' ),
 			'subtitle' => esc_html__( 'Controls the color menu first level.', 'funvita' ),
 			'default'  => array(
-				'regular' => '#1d274e',
+				'regular' => '#0f3057',
 				'hover'   => '#015dc7',
 				'active'  => '#015dc7',
 			),
@@ -3168,7 +3168,7 @@ Redux::setSection( $opt_name, array(
 			'title'    => esc_html__( 'Menu Sub Level Color', 'funvita' ),
 			'subtitle' => esc_html__( 'Controls the color menu sub level.', 'funvita' ),
 			'default'  => array(
-				'regular' => '#1d274e',
+				'regular' => '#0f3057',
 				'hover'   => '#015dc7',
 				'active'  => '#015dc7',
 			),
@@ -3190,7 +3190,7 @@ Redux::setSection( $opt_name, array(
 			'subtitle' => esc_html__( 'Controls the color toggle menu button of the header mobile.', 'funvita' ),
 			'active'   => false,
 			'default'  => array(
-				'regular' => '#1d274e',
+				'regular' => '#0f3057',
 				'hover'   => '#015dc7',
 			),
 		),
@@ -3307,7 +3307,7 @@ Redux::setSection( $opt_name, array(
 			'title'    => esc_html__( 'Menu First Level Color', 'funvita' ),
 			'subtitle' => esc_html__( 'Controls the color menu first level.', 'funvita' ),
 			'default'  => array(
-				'regular' => '#1d274e',
+				'regular' => '#0f3057',
 				'hover'   => '#015dc7',
 				'active'  => '#015dc7',
 			),
@@ -3337,7 +3337,7 @@ Redux::setSection( $opt_name, array(
 			'title'    => esc_html__( 'Menu Sub Level Color', 'funvita' ),
 			'subtitle' => esc_html__( 'Controls the color menu sub level.', 'funvita' ),
 			'default'  => array(
-				'regular' => '#1d274e',
+				'regular' => '#0f3057',
 				'hover'   => '#015dc7',
 				'active'  => '#015dc7',
 			),
@@ -3350,7 +3350,7 @@ Redux::setSection( $opt_name, array(
 			'subtitle' => esc_html__( 'Controls the color toggle menu button of the header mobile.', 'funvita' ),
 			'active'   => false,
 			'default'  => array(
-				'regular' => '#1d274e',
+				'regular' => '#0f3057',
 				'hover'   => '#015dc7',
 			),
 		),
@@ -3402,7 +3402,7 @@ Redux::setSection( $opt_name, array(
 			'subtitle' => esc_html__( 'Controls the color toggle menu button of the header mobile.', 'funvita' ),
 			'active'   => false,
 			'default'  => array(
-				'regular' => '#1d274e',
+				'regular' => '#0f3057',
 				'hover'   => '#015dc7',
 			),
 		),
@@ -3485,7 +3485,7 @@ Redux::setSection( $opt_name, array(
 			'title'    => esc_html__( 'Menu Mobile First Level Color', 'funvita' ),
 			'subtitle' => esc_html__( 'Controls the color menu mobile first level.', 'funvita' ),
 			'default'  => array(
-				'regular' => '#1d274e',
+				'regular' => '#0f3057',
 				'hover'   => '#015dc7',
 				'active'  => '#015dc7',
 			),
@@ -3517,7 +3517,7 @@ Redux::setSection( $opt_name, array(
 			'title'    => esc_html__( 'Menu Mobile Sub Level Color', 'funvita' ),
 			'subtitle' => esc_html__( 'Controls the color menu mobile sub level.', 'funvita' ),
 			'default'  => array(
-				'regular' => '#1d274e',
+				'regular' => '#0f3057',
 				'hover'   => '#015dc7',
 				'active'  => '#015dc7',
 			),

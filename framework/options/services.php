@@ -52,7 +52,7 @@ Redux::setSection( $opt_name, array(
 			'title'    => esc_html__( 'Title Bar Background', 'funvita' ),
 			'subtitle' => esc_html__( 'Control the background of the title bar.', 'funvita' ),
 			'default'  => array(
-				'background-color' => '#1d274e',
+				'background-color' => '#0f3057',
 			),
 			'required' 	=> array('services_titlebar' , '=', '1'),
 			'output'    => array('.tax-bt_services_category .bt-titlebar .bt-titlebar-inner'),
@@ -257,7 +257,7 @@ Redux::setSection( $opt_name, array(
 			'title'    => esc_html__( 'Title Bar Background', 'funvita' ),
 			'subtitle' => esc_html__( 'Control the background of the title bar.', 'funvita' ),
 			'default'  => array(
-				'background-color' => '#1d274e',
+				'background-color' => '#0f3057',
 			),
 			'required' 	=> array('single_services_titlebar' , '=', '1'),
 			'output'    => array('.single-bt_services .bt-titlebar .bt-titlebar-inner'),
