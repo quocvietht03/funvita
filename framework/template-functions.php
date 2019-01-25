@@ -191,7 +191,7 @@ if (!function_exists('funvita_logo')) {
 		if(!$url){
 			$url = get_template_directory_uri().'/assets/images/logo.png';
 		}
-		echo '<a href="'.home_url('/').'"><img class="logo" style="height: '.esc_attr($height).'px; width: auto;" src="'.esc_url($url).'" alt="'.esc_attr__('Logo', 'funvita').'"/></a>';
+		echo '<a href="'.esc_url(home_url('/')).'"><img class="logo" style="height: '.esc_attr($height).'px; width: auto;" src="'.esc_url($url).'" alt="'.esc_attr__('Logo', 'funvita').'"/></a>';
 	}
 }
 

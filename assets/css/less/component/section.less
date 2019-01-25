@@ -140,11 +140,11 @@
 	line-height: 26px;
 	letter-spacing: 0.3em;
 	text-transform: uppercase;
-	opacity: 0.7;
+	opacity: 0.8;
 	margin-bottom: 10px;
 }
 .bt-main-heading.vc_custom_heading{
-	font-size: 45px;
+	font-size: 44px;
 	line-height: 52px;
 	margin-bottom: 40px;
 }
@@ -202,14 +202,14 @@
 	}
 	.bt-title{
 		.easing-animation;
-		font-size: 26px;
-		line-height: 32px;
+		font-size: 22px;
+		line-height: 30px;
 	}
 	.bt-desc{
 		.easing-animation;
 	}
 	.bt-readmore{
-		font-size: 15px;
+		font-size: 14px;
 		font-weight: 700;
 		color: @main-color;
 		&:before{
@@ -255,8 +255,8 @@
 		}
 	}
 	.bt-title{
-		font-size: 26px;
-		line-height: 32px;
+		font-size: 22px;
+		line-height: 30px;
 	}
 	.bt-readmore{
 		font-size: 15px;
@@ -308,8 +308,8 @@
 		}
 	}
 	.bt-title{
-		font-size: 26px;
-		line-height: 32px;
+		font-size: 22px;
+		line-height: 30px;
 	}
 	.bt-readmore{
 		font-size: 15px;
@@ -347,9 +347,9 @@
 		position: absolute;
 		top: 0;
 		left: 0;
-		width: 0;
+		width: 100%;
 		height: 3px;
-		.backgroundLinearGradient (120deg,@secondary-color,@main-color);
+		.backgroundLinearGradient (120deg,@main-color,@secondary-color);
 	}
 	.bt-icon{
 		margin-bottom: 30px;
@@ -364,11 +364,8 @@
 		}
 	}
 	.bt-title{
-		font-size: 26px;
-		line-height: 32px;
-	}
-	.bt-desc p:last-child{
-		margin-bottom: 0;
+		font-size: 22px;
+		line-height: 30px;
 	}
 	.bt-readmore{
 		font-size: 15px;
@@ -386,9 +383,6 @@
 		}
 	}
 	&:hover{
-		&:before{
-			width: 100%;
-		}
 		.bt-icon i{
 			.backgroundLinearGradient (120deg,@secondary-color,@main-color);
 		}
@@ -654,10 +648,7 @@
 .bt-services-section3{
 	.smile_icon_list.top li{
 		.icon_list_icon{
-			background: @main-color;
-			-webkit-background-image: linear-gradient(58deg, #407bdb, #4431a6);
-			-ms-background-image: linear-gradient(58deg, #407bdb, #4431a6);
-			background-image: linear-gradient(58deg, #407bdb, #4431a6);
+			.backgroundLinearGradient (120deg,@main-color,@secondary-color);
 			img{
 				width: 40px;
 				height: auto;
@@ -666,6 +657,12 @@
 		.icon_description .info-list-heading{
 			letter-spacing: 0.1em;
 			margin-bottom: 5px;
+		}
+		&:hover{
+			.icon_list_icon{
+				animation: pulseSmall 2s infinite;
+				.backgroundLinearGradient (120deg,@secondary-color,@main-color);
+			}
 		}
 	}
 }
@@ -871,8 +868,15 @@
 }
 
 .bt-about-section3{
-	.vc_custom_heading, .wpb_text_column, .aio-icon-component{
+	.vc_custom_heading, .wpb_text_column, .bt-fancy-box-element{
 		max-width: 680px;
+	}
+	.bt-fancy-box-element .bt-icon i{
+		color: transparent;
+		background-color: transparent;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		.backgroundLinearGradient (120deg,@main-color,@secondary-color);
 	}
 }
 
@@ -910,10 +914,7 @@
 
 .bt-about-section5{
 	.ult-content-box{
-		background: @main-color;
-		-webkit-background-image: linear-gradient(58deg, #407bdb, #4431a6);
-		-ms-background-image: linear-gradient(58deg, #407bdb, #4431a6);
-		background-image: linear-gradient(58deg, #407bdb, #4431a6);
+		.backgroundLinearGradient (120deg,@main-color,@secondary-color);
 		ul{
 			margin: 0;
 			padding: 0;
@@ -923,12 +924,11 @@
 				&:not(:last-child){
 					margin-bottom: 40px;
 					padding-bottom: 40px;
-					border-bottom: 1px solid fadeout(#ffffff, 95);
+					border-bottom: 1px solid fadeout(#ffffff, 90);
 				}
 				h3{
 					float: left;
-					font-size: 26px;
-					font-weight: 700;
+					font-size: 22px;
 					line-height: 30px;
 					color: #ffffff;
 					margin-right: 15px;
@@ -973,8 +973,7 @@
 			}
 			h3{
 				float: left;
-				font-size: 26px;
-				font-weight: 700;
+				font-size: 22px;
 				line-height: 30px;
 				color: @main-color;
 				margin-right: 15px;
@@ -1012,8 +1011,8 @@
 		.bt-content{
 			padding-left: 55px;
 			.bt-title{
-				font-size: 26px;
-				line-height: 32px;
+				font-size: 22px;
+				line-height: 30px;
 				color: #ffffff;
 				margin-bottom: 10px;
 			}
@@ -1037,8 +1036,8 @@
 		.bt-content{
 			padding-left: 55px;
 			.bt-title{
-				font-size: 26px;
-				line-height: 32px;
+				font-size: 22px;
+				line-height: 30px;
 				margin-bottom: 10px;
 			}
 			.bt-desc{
@@ -1085,16 +1084,17 @@
 			border-top: none;
 			border-left: none;
 			border-right: none;
-			border-bottom: 2px solid #e4e4e4;
+			border-bottom: 2px solid #e2ebf1;
 			-webkit-border-radius: 0;
 			border-radius: 0;
-			&:focus{
-				border-bottom-color: #333330;
+			&:hover,&:focus, &:active{
+				border-bottom-color: #0f3057;
 			}
 		}
 		input[type="submit"]{
 			font-size: 13px;
 			font-weight: 700;
+			letter-spacing: 0.2em;
 			padding: 15px 35px;
 			-webkit-border-radius: 0;
 			border-radius: 0;
@@ -1104,21 +1104,21 @@
 			}
 		}
 		.placeholder {
-			color: #2f2f2f;
+			color: #646d77;
 		}
 		::-webkit-input-placeholder {
-			color: #2f2f2f;
+			color: #646d77;
 		}
 		:-moz-placeholder {
 			/* Firefox 18- */
-			color: #2f2f2f;
+			color: #646d77;
 		}
 		::-moz-placeholder {
 			/* Firefox 19+ */
-			color: #2f2f2f;
+			color: #646d77;
 		}
 		:-ms-input-placeholder {
-			color: #2f2f2f;
+			color: #646d77;
 		}
 	}
 	@media(max-width: @screen-sm - 1){

@@ -1133,10 +1133,10 @@
 				border: none;
 			}
 			.wg-title{
-				font-size: 14px;
+				font-size: 18px;
 				font-weight: 700;
 				.bt-subtitle{
-					font-size: 15px;
+					font-size: 14px;
 					font-weight: 400;
 					font-style: italic;
 					color: @main-color;
@@ -1249,6 +1249,8 @@
 				}
 			}
 			.icon{
+				font-size: 20px;
+				color: @main-color;
 				margin-right: 10px;
 			}
 		}
@@ -2378,7 +2380,8 @@
 								font-size: 14px;
 								line-height: 32px;
 								text-align: center;
-								color: #0f3057;
+								color: @main-color;
+								.bt-social-color;
 								background: #ececec;
 								margin-right: 7px;
 								-webkit-border-radius: 50%;
@@ -2389,6 +2392,7 @@
 								&:hover{
 									color: #ffffff;
 									background: @main-color;
+									.bt-social-background;
 								}
 							}
 						}

@@ -338,10 +338,6 @@
 									}
 								echo '</div>';
 							}
-							
-							if(isset($funvita_options['h2_menu_canvas'])&&$funvita_options['h2_menu_canvas']){
-								echo '<a href="#" class="bt-menu-canvas-toggle"><i class="fa fa-bars"></i></a>';
-							}
 						?>
 						<div class="bt-menu-toggle">
 							<div class="bt-toggle-content"></div>
