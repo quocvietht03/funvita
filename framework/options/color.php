@@ -27,7 +27,7 @@ Redux::setSection( $opt_name, array(
 			'title'    => esc_html__( 'Body Color', 'funvita' ),
 			'subtitle' => esc_html__( 'Controls the color of all text body.', 'funvita' ),
 			'active'    => false,
-			'default'  => '#333330',
+			'default'  => '#585858',
 			'output'   => array('body')
 		),
 		array(
@@ -46,7 +46,7 @@ Redux::setSection( $opt_name, array(
 			'subtitle' => esc_html__( 'Controls the color of all text links.', 'funvita' ),
 			'active'    => false,
 			'default'  => array(
-				'regular'  => '#333330',
+				'regular'  => '#585858',
 				'hover'    => '#015dc7'
 			),
 			'output'   => array('a')

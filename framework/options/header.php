@@ -948,7 +948,7 @@ Redux::setSection( $opt_name, array(
 			'letter-spacing'   => true,
 			'text-align'   => false,
 			'default'  => array(
-				'color'       => '#333330',
+				'color'       => '#585858',
 				'font-size'   => '14px',
 				'line-height' => '24px',
 				'letter-spacing' => '0'
@@ -1703,7 +1703,7 @@ Redux::setSection( $opt_name, array(
 			'letter-spacing'   => true,
 			'text-align'   => false,
 			'default'  => array(
-				'color'       => '#333330',
+				'color'       => '#585858',
 				'font-size'   => '14px',
 				'line-height' => '24px',
 				'letter-spacing' => '0'
