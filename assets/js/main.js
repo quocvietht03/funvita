@@ -216,9 +216,9 @@
 			var f_height = parseInt($('.bt-footer').innerHeight()),
 				f_space = parseInt($('.bt-footer').data('space'));
 				
-			$('#bt-main .bt-header').css({"position": "relative", "z-index": "999"});
-			$('#bt-main .bt-titlebar').css({"position": "relative", "z-index": "3"});
-			$('#bt-main .bt-main-content').css({"position": "relative", "background": "#ffffff", "z-index": "3", "margin-bottom": f_height + f_space});
+			$('.bt-main-wrap .bt-header').css({"position": "relative", "z-index": "999"});
+			$('.bt-main-wrap .bt-titlebar').css({"position": "relative", "z-index": "3"});
+			$('.bt-main-wrap .bt-main-content').css({"position": "relative", "background": "#ffffff", "z-index": "3", "margin-bottom": f_height + f_space});
 		}
 	}
 	
