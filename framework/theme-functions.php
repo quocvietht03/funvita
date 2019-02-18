@@ -61,29 +61,6 @@ if ( ! function_exists( 'funvita_setup' ) ) {
 }
 add_action( 'after_setup_theme', 'funvita_setup' );
 
-/* Custom Site Title */
-if ( ! function_exists( 'funvita_wp_title' ) ) {
-	function funvita_wp_title( $title, $sep ) {
-		global $paged, $page;
-		if ( is_feed() ) {
-			return $title;
-		}
-		// Add the site name.
-		$title .= get_bloginfo( 'name' );
-		// Add the site description for the home/front page.
-		$site_description = get_bloginfo( 'description', 'display' );
-		if ( $site_description && ( is_home() || is_front_page() ) ) {
-			$title = "$title $sep $site_description";
-		}
-		// Add a page number if necessary.
-		if ( $paged >= 2 || $page >= 2 ) {
-			$title = sprintf( esc_html__( 'Page %s', 'funvita' ), max( $paged, $page ) ) . " $sep $title";
-		}
-		return $title;
-	}
-	add_filter( 'wp_title', 'funvita_wp_title', 10, 2 );
-}
-
 /* Filter body class */
 if (!function_exists('funvita_body_classes')) {
 	function funvita_body_classes($classes) {
@@ -487,7 +464,7 @@ if(!function_exists('funvita_add_content_before_header_func')) {
 		$site_loading = (isset($funvita_options['site_loading'])&&$funvita_options['site_loading'])?$funvita_options['site_loading']: false;
 		$site_loading_spinner = (isset($funvita_options['site_loading_spinner'])&&$funvita_options['site_loading_spinner'])?$funvita_options['site_loading_spinner']: 'spinner0';
 		if($site_loading){
-			echo '<div id="bt_site_loading">
+			echo '<div id="bt_site_loading" class="bt-site-loading">
 					<div class="loader '.esc_attr($site_loading_spinner).'">
 						<div class="dot1"></div>
 						<div class="dot2"></div>
