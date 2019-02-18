@@ -1,4 +1,4 @@
-<footer id="bt_footer" class="bt-footer bt-footer-default bt-stick" data-space="60">
+<footer id="bt-footer" class="bt-footer bt-footer-default bt-stick" data-space="60">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">

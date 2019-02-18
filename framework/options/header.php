@@ -12,31 +12,31 @@ Redux::setSection( $opt_name, array(
 			'subtitle' => esc_html__( 'Select a header layout default. Foreach pages, you can change the layout by page option', 'funvita' ),
 			'options'  => array(
 				'1' => array(
-					'alt' => 'Header layout 1',
+					'alt' => esc_html__( 'Header layout 1', 'funvita' ),
 					'img' => get_template_directory_uri() . '/assets/images/headers/header-v1.jpg'
 				),
 				'2' => array(
-					'alt' => 'Header layout 2',
+					'alt' => esc_html__( 'Header layout 2', 'funvita' ),
 					'img' => get_template_directory_uri() . '/assets/images/headers/header-v2.jpg'
 				),
 				'3' => array(
-					'alt' => 'Header layout 3',
+					'alt' => esc_html__( 'Header layout 3', 'funvita' ),
 					'img' => get_template_directory_uri() . '/assets/images/headers/header-v3.jpg'
 				),
 				'onepage' => array(
-					'alt' => 'Header layout onpage',
+					'alt' => esc_html__( 'Header layout onpage', 'funvita' ),
 					'img' => get_template_directory_uri() . '/assets/images/headers/header-onepage.jpg'
 				),
 				'onepagescroll' => array(
-					'alt' => 'Header layout onepagescroll',
+					'alt' => esc_html__( 'Header layout onepagescroll', 'funvita' ),
 					'img' => get_template_directory_uri() . '/assets/images/headers/header-onepagescroll.jpg'
 				),
 				'vertical' => array(
-					'alt' => 'Header layout vertical',
+					'alt' => esc_html__( 'Header layout vertical', 'funvita' ),
 					'img' => get_template_directory_uri() . '/assets/images/headers/header-vertical.jpg'
 				),
 				'minivertical' => array(
-					'alt' => 'Header layout mini vertical',
+					'alt' => esc_html__( 'Header layout mini vertical', 'funvita' ),
 					'img' => get_template_directory_uri() . '/assets/images/headers/header-minivertical.jpg'
 				)
 			),
@@ -58,7 +58,7 @@ Redux::setSection( $opt_name, array(
 			'subtitle' => esc_html__( 'This is the options you can change for header style 01', 'funvita' ),
 			'options'  => array(
 				'1' => array(
-					'alt' => 'Header layout 1',
+					'alt' => esc_html__( 'Header layout 1', 'funvita' ),
 					'img' => get_template_directory_uri() . '/assets/images/headers/header-v1.jpg'
 				)
 			),
@@ -277,9 +277,9 @@ Redux::setSection( $opt_name, array(
 			'title'    => esc_html__( 'Menu Align', 'funvita' ),
 			'subtitle' => esc_html__( 'Control align of menu.', 'funvita' ),
 			'options'  => array(
-				'left' => 'Left',
-				'center' => 'Center',
-				'right' => 'Right'
+				'left' => esc_html__( 'Left', 'funvita' ),
+				'center' => esc_html__( 'Center', 'funvita' ),
+				'right' => esc_html__( 'Right', 'funvita' )
 			),
 			'default'  => 'right'
 		),
@@ -725,7 +725,7 @@ Redux::setSection( $opt_name, array(
 			'subtitle' => esc_html__( 'This is the options you can change for header style 02', 'funvita' ),
 			'options'  => array(
 				'1' => array(
-					'alt' => 'Header layout 2',
+					'alt' => esc_html__( 'Header layout 2', 'funvita' ),
 					'img' => get_template_directory_uri() . '/assets/images/headers/header-v2.jpg'
 				)
 			),
@@ -1020,9 +1020,9 @@ Redux::setSection( $opt_name, array(
 			'title'    => esc_html__( 'Menu Align', 'funvita' ),
 			'subtitle' => esc_html__( 'Control align of menu.', 'funvita' ),
 			'options'  => array(
-				'left' => 'Left',
-				'center' => 'Center',
-				'right' => 'Right'
+				'left' => esc_html__( 'Left', 'funvita' ),
+				'center' => esc_html__( 'Center', 'funvita' ),
+				'right' => esc_html__( 'Right', 'funvita' )
 			),
 			'default'  => 'center'
 		),
@@ -1259,9 +1259,9 @@ Redux::setSection( $opt_name, array(
 			'title'    => esc_html__( 'Menu Align Stick', 'funvita' ),
 			'subtitle' => esc_html__( 'Control align of menu stick.', 'funvita' ),
 			'options'  => array(
-				'left' => 'Left',
-				'center' => 'Center',
-				'right' => 'Right'
+				'left' => esc_html__( 'Left', 'funvita' ),
+				'center' => esc_html__( 'Center', 'funvita' ),
+				'right' => esc_html__( 'Right', 'funvita' )
 			),
 			'default'  => 'right',
 			'required' 		=> array('h2_header_stick' , '=', '1'),
@@ -1489,7 +1489,7 @@ Redux::setSection( $opt_name, array(
 			'subtitle' => esc_html__( 'This is the options you can change for header style 03', 'funvita' ),
 			'options'  => array(
 				'1' => array(
-					'alt' => 'Header layout 3',
+					'alt' => esc_html__( 'Header layout 3', 'funvita' ),
 					'img' => get_template_directory_uri() . '/assets/images/headers/header-v3.jpg'
 				)
 			),
@@ -1775,9 +1775,9 @@ Redux::setSection( $opt_name, array(
 			'title'    => esc_html__( 'Menu Align', 'funvita' ),
 			'subtitle' => esc_html__( 'Control align of menu.', 'funvita' ),
 			'options'  => array(
-				'left' => 'Left',
-				'center' => 'Center',
-				'right' => 'Right'
+				'left' => esc_html__( 'Left', 'funvita' ),
+				'center' => esc_html__( 'Center', 'funvita' ),
+				'right' => esc_html__( 'Right', 'funvita' )
 			),
 			'default'  => 'left'
 		),
@@ -2014,9 +2014,9 @@ Redux::setSection( $opt_name, array(
 			'title'    => esc_html__( 'Menu Align Stick', 'funvita' ),
 			'subtitle' => esc_html__( 'Control align of menu stick.', 'funvita' ),
 			'options'  => array(
-				'left' => 'Left',
-				'center' => 'Center',
-				'right' => 'Right'
+				'left' => esc_html__( 'Left', 'funvita' ),
+				'center' => esc_html__( 'Center', 'funvita' ),
+				'right' => esc_html__( 'Right', 'funvita' )
 			),
 			'default'  => 'right',
 			'required' 		=> array('h3_header_stick' , '=', '1'),
@@ -2244,7 +2244,7 @@ Redux::setSection( $opt_name, array(
 			'subtitle' => esc_html__( 'This is the options you can change for header one page.', 'funvita' ),
 			'options'  => array(
 				'1' => array(
-					'alt' => 'Header layout onepage',
+					'alt' => esc_html__( 'Header layout onepage', 'funvita' ),
 					'img' => get_template_directory_uri() . '/assets/images/headers/header-onepage.jpg'
 				)
 			),
@@ -2438,9 +2438,9 @@ Redux::setSection( $opt_name, array(
 			'title'    => esc_html__( 'Menu Align', 'funvita' ),
 			'subtitle' => esc_html__( 'Control align of menu.', 'funvita' ),
 			'options'  => array(
-				'left' => 'Left',
-				'center' => 'Center',
-				'right' => 'Right'
+				'left' => esc_html__( 'Left', 'funvita' ),
+				'center' => esc_html__( 'Center', 'funvita' ),
+				'right' => esc_html__( 'Right', 'funvita' )
 			),
 			'default'  => 'right'
 		),
@@ -2885,7 +2885,7 @@ Redux::setSection( $opt_name, array(
 			'subtitle' => esc_html__( 'This is the options you can change for header one page style', 'funvita' ),
 			'options'  => array(
 				'1' => array(
-					'alt' => 'Header layout one page',
+					'alt' => esc_html__( 'Header layout one page', 'funvita' ),
 					'img' => get_template_directory_uri() . '/assets/images/headers/header-onepagescroll.jpg'
 				)
 			),
@@ -2983,7 +2983,7 @@ Redux::setSection( $opt_name, array(
 			'subtitle' => esc_html__( 'This is the options you can change for header one page style', 'funvita' ),
 			'options'  => array(
 				'1' => array(
-					'alt' => 'Header layout vertical',
+					'alt' => esc_html__( 'Header layout vertical', 'funvita' ),
 					'img' => get_template_directory_uri() . '/assets/images/headers/header-vertical.jpg'
 				)
 			),
@@ -3210,7 +3210,7 @@ Redux::setSection( $opt_name, array(
 			'subtitle' => esc_html__( 'This is the options you can change for header one page style', 'funvita' ),
 			'options'  => array(
 				'1' => array(
-					'alt' => 'Header layout vertical',
+					'alt' => esc_html__( 'Header layout mini vertical', 'funvita' ),
 					'img' => get_template_directory_uri() . '/assets/images/headers/header-minivertical.jpg'
 				)
 			),

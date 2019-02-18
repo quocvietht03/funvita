@@ -246,7 +246,7 @@ Redux::setSection( $opt_name, array(
 			'type'     => 'text',
 			'title'    => esc_html__( 'Post Meta Field Category Label', 'funvita' ),
 			'subtitle' => esc_html__( 'Please, Enter label of the label read more button. Leave empty to use "Read More" label.', 'funvita' ),
-			'default'  => 'Read More',
+			'default'  => esc_html__( 'Read More', 'funvita' ),
 			'required' 		=> array('post_readmore' , '=', '1'),
 		),
 		array(
@@ -488,7 +488,7 @@ Redux::setSection( $opt_name, array(
 			'type'     => 'text',
 			'title'    => esc_html__( 'Post Tags Label', 'funvita' ),
 			'subtitle' => esc_html__( 'Please, Enter label of the tags. Leave empty to use "Tags:" label.', 'funvita' ),
-			'default'  => 'Tags:',
+			'default'  => esc_html__( 'Tags:', 'funvita' ),
 			'required' 		=> array('single_post_tag' , '=', '1'),
 		),
 		array(
@@ -503,7 +503,7 @@ Redux::setSection( $opt_name, array(
 			'type'     => 'text',
 			'title'    => esc_html__( 'Post Share Label', 'funvita' ),
 			'subtitle' => esc_html__( 'Please, Enter label of the share. Leave empty to use "Share:" label.', 'funvita' ),
-			'default'  => 'Share:',
+			'default'  => esc_html__( 'Share:', 'funvita' ),
 			'required' 		=> array('single_post_share' , '=', '1'),
 		),
 		array(

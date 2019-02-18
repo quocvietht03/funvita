@@ -4994,7 +4994,7 @@ img.alignright { margin:0 0 20px 20px; }
     float:none;
   }
 }
-.header-minivertical #bt-main { padding-left:80px; }
+.header-minivertical .bt-main-wrap { padding-left:80px; }
 .header-minivertical .bt-header-minivertical .bt-header-desktop {
   -webkit-transition:all 0.7s;
   -moz-transition:all 0.7s;
@@ -5521,7 +5521,7 @@ img.alignright { margin:0 0 20px 20px; }
 }
 .header-minivertical .bt-header-minivertical .bt-header-mobile { display:none; }
 @media (max-width: 992px) {
-  .header-minivertical #bt-main { padding-left:0; }
+  .header-minivertical .bt-main-wrap { padding-left:0; }
   .header-minivertical .bt-header-minivertical .bt-header-desktop { display:none; }
   .header-minivertical .bt-header-minivertical .bt-header-mobile { display:block; }
   .header-minivertical .bt-header-minivertical .bt-header-mobile .bt-menu-mobile-wrap .bt-menu-mobile ul.menu > li.current_page_item > a, .header-minivertical .bt-header-minivertical .bt-header-mobile .bt-menu-mobile-wrap .bt-menu-mobile ul.menu > li.current-menu-item > a { color:#3cc951; }
@@ -19775,8 +19775,8 @@ img.alignright { margin:0 0 20px 20px; }
   color:#ffffff;
   background:#015dc7;
 }
-.bt-comment-wrapper, .bt-leave-comment-wrapper { margin-bottom:30px; }
-.bt-comment-wrapper > h6, .bt-leave-comment-wrapper > h6 {
+.bt-comment-wrap, .bt-leave-comment-wrapper { margin-bottom:30px; }
+.bt-comment-wrap > h6, .bt-leave-comment-wrapper > h6 {
   font-size:22px;
   line-height:26px;
   margin-top:45px;
@@ -22793,7 +22793,7 @@ body #site_backtop:hover, body #site_backtop:focus {
   background-image:-ms-linear-gradient(120deg,#a200ff,#015dc7);
   background-image:linear-gradient(120deg,#a200ff,#015dc7);
 }
-#bt-main {
+.bt-main-wrap {
   -wekbit-transition:all 0.4s;
   -moz-transition:all 0.4s;
   -o-transition:all 0.4s;
@@ -22802,13 +22802,13 @@ body #site_backtop:hover, body #site_backtop:focus {
   position:relative;
   overflow:hidden;
 }
-.boxed #bt-main {
+.boxed .bt-main-wrap {
   max-width:1200px;
   margin:auto;
   -webkit-box-shadow:0 0 10px 0 rgba(0,0,0,0.5);
   box-shadow:0 0 10px 0 rgba(0,0,0,0.5);
 }
-.boxed #bt-main .vc_row[data-vc-full-width] {
+.boxed .bt-main-wrap .vc_row[data-vc-full-width] {
   width:100% !important;
   left:15px !important;
 }

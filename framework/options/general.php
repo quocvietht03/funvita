@@ -50,7 +50,7 @@ Redux::setSection( $opt_name, array(
 				'background-color' => '#FFFFFF',
 			),
 			'required' 		=> array('site_layout' , '=', 'boxed'),
-			'output'    => array('.boxed #bt-main')
+			'output'    => array('.boxed .bt-main-wrap')
 		),
 		array(
 			'id'       => 'boxed_space',
@@ -66,7 +66,7 @@ Redux::setSection( $opt_name, array(
 				'margin-bottom' => '10px'
 			),
 			'required' 		=> array('site_layout' , '=', 'boxed'),
-			'output'    => array('.boxed #bt-main')
+			'output'    => array('.boxed .bt-main-wrap')
 		),
 		array(
 			'id'       => 'body_bg',
@@ -179,11 +179,11 @@ Redux::setSection( $opt_name, array(
 			'subtitle' => esc_html__( 'Select a navigaiton & dots style for carousel.', 'funvita' ),
 			'options'  => array(
 				'0' => array(
-					'alt' => 'Nav & Dots Default',
+					'alt' => esc_html__( 'Nav & Dots Default', 'funvita' ),
 					'img' => get_template_directory_uri() . '/assets/images/button/nav-dots-default.jpg'
 				),
 				'1' => array(
-					'alt' => 'Nav & Dots Style 1',
+					'alt' => esc_html__( 'Nav & Dots Style 1', 'funvita' ),
 					'img' => get_template_directory_uri() . '/assets/images/button/nav-dots-style1.jpg'
 				)
 			),
@@ -196,11 +196,11 @@ Redux::setSection( $opt_name, array(
 			'subtitle' => esc_html__( 'Select a pagination style.', 'funvita' ),
 			'options'  => array(
 				'0' => array(
-					'alt' => 'Pagination Style default',
+					'alt' => esc_html__( 'Pagination Style default', 'funvita' ),
 					'img' => get_template_directory_uri() . '/assets/images/button/pagination-default.jpg'
 				),
 				'1' => array(
-					'alt' => 'Pagination Style 1',
+					'alt' => esc_html__( 'Pagination Style 1', 'funvita' ),
 					'img' => get_template_directory_uri() . '/assets/images/button/pagination-style1.jpg'
 				)
 			),
@@ -209,16 +209,16 @@ Redux::setSection( $opt_name, array(
 		array(
 			'id'       => 'pagination_prev_text',
 			'type'     => 'text',
-			'title'    => esc_html__( 'Previous Text', 'funvita' ),
+			'title'    => esc_html__( 'Previous', 'funvita' ),
 			'subtitle' => esc_html__( 'Enter previous text of pagination.', 'funvita' ),
-			'default'  => 'Previous'
+			'default'  => esc_html__( 'Previous', 'funvita' )
 		),
 		array(
 			'id'       => 'pagination_next_text',
 			'type'     => 'text',
-			'title'    => esc_html__( 'Next Text', 'funvita' ),
+			'title'    => esc_html__( 'Next', 'funvita' ),
 			'subtitle' => esc_html__( 'Enter next text of pagination.', 'funvita' ),
-			'default'  => 'Next'
+			'default'  => esc_html__( 'Next', 'funvita' )
 		),
 	)
 ) );

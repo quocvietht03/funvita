@@ -487,7 +487,7 @@ if(!function_exists('funvita_add_content_before_header_func')) {
 		$site_loading = (isset($funvita_options['site_loading'])&&$funvita_options['site_loading'])?$funvita_options['site_loading']: false;
 		$site_loading_spinner = (isset($funvita_options['site_loading_spinner'])&&$funvita_options['site_loading_spinner'])?$funvita_options['site_loading_spinner']: 'spinner0';
 		if($site_loading){
-			echo '<div id="site_loading">
+			echo '<div id="bt_site_loading">
 					<div class="loader '.esc_attr($site_loading_spinner).'">
 						<div class="dot1"></div>
 						<div class="dot2"></div>

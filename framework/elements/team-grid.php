@@ -20,7 +20,7 @@ class WPBakeryShortCode_bt_team_grid extends WPBakeryShortCode {
 			
 			'layout' => 'default',
 			'img_size' => '',
-			'readmore_text' => 'Read More',
+			'readmore_text' => esc_html__('Read More', 'funvita'),
 			
 			'columns_md' => '',
 			'columns_sm' => '',
@@ -251,7 +251,7 @@ vc_map(array(
 			'type' => 'textfield',
 			'heading' => esc_html__('Readmore Text', 'funvita'),
 			'param_name' => 'readmore_text',
-			'value' => 'Read More',
+			'value' => esc_html__('Read More', 'funvita'),
 			'group' => esc_html__('Item Setting', 'funvita'),
 			'description' => esc_html__('Please, Enter text of label button readmore in this element.', 'funvita')
 		),

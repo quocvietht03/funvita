@@ -4,7 +4,7 @@ if ( post_password_required() ) {
 }
 ?>
 
-<div id="comments" class="bt-comment-wrapper clearfix">
+<div id="comments" class="bt-comment-wrap clearfix">
 
 	<?php // You can start editing here -- including this comment! ?>
 

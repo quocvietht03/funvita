@@ -12,11 +12,11 @@ Redux::setSection( $opt_name, array(
 			'subtitle' => esc_html__( 'Select a title bar layout default. Foreach pages, you can change the layout by page option', 'funvita' ),
 			'options'  => array(
 				'1' => array(
-					'alt' => 'Title Bar layout 1',
+					'alt' => esc_html__( 'Title Bar layout 1', 'funvita' ),
 					'img' => get_template_directory_uri() . '/assets/images/titlebars/titlebar-v1.jpg'
 				),
 				'2' => array(
-					'alt' => 'Title Bar layout 2',
+					'alt' => esc_html__( 'Title Bar layout 2', 'funvita' ),
 					'img' => get_template_directory_uri() . '/assets/images/titlebars/titlebar-v2.jpg'
 				)
 			),
@@ -51,9 +51,9 @@ Redux::setSection( $opt_name, array(
 			'title'    => esc_html__( 'Title Bar Align', 'funvita' ),
 			'subtitle' => esc_html__( 'Control align of the title bar.', 'funvita' ),
 			'options'  => array(
-				'text-left' => 'Left',
-				'text-center' => 'Center',
-				'text-right' => 'Right'
+				'text-left' => esc_html__( 'Left', 'funvita' ),
+				'text-center' => esc_html__( 'Center', 'funvita' ),
+				'text-right' => esc_html__( 'Right', 'funvita' )
 			),
 			'default'  => 'text-center',
 			'required' 		=> array('titlebar_layout' , '=', '1')

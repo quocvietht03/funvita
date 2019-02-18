@@ -27,7 +27,7 @@ class WPBakeryShortCode_bt_portfolio_carousel extends WPBakeryShortCode {
 			'order' => 'none',
 			
 			'img_size' => '',
-			'readmore_text' => 'Read More',
+			'readmore_text' => esc_html__('Read More', 'funvita'),
 			
 			'items_md' => '',
 			'items_sm' => '',

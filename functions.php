@@ -214,8 +214,8 @@ add_filter('upload_mimes', 'funvita_mime_types');
 /* Visual Composer Post Grid Compatibility Issue With 3rd party Plugin */
 add_filter('vc_grid_get_grid_data_access','__return_true');
 
-/* Template functions */
-require_once get_template_directory().'/framework/template-functions.php';
+/* Theme functions */
+require_once get_template_directory().'/framework/theme-functions.php';
 
 /* Less compile functions */
 require_once get_template_directory().'/framework/inc/less-compile.php';

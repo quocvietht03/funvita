@@ -183,7 +183,7 @@ Redux::setSection( $opt_name, array(
 			'type'     => 'text',
 			'title'    => esc_html__( 'Post Meta Field Category Label', 'funvita' ),
 			'subtitle' => esc_html__( 'Please, Enter label of the label read more button. Leave empty to use "Read More" label.', 'funvita' ),
-			'default'  => 'Read More',
+			'default'  => esc_html__('Read More', 'funvita'),
 			'required' 		=> array('services_readmore' , '=', '1'),
 		),
 		array(

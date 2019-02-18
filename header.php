@@ -8,5 +8,5 @@
 </head>
 <body <?php body_class() ?>>
 	<?php do_action('funvita_add_content_before_header'); ?>
-	<div id="bt-main">
+	<div id="bt_main_wrap" class="bt-main-wrap">
 		<?php funvita_header(); ?>

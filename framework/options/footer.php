@@ -12,11 +12,11 @@ Redux::setSection( $opt_name, array(
 			'subtitle' => esc_html__( 'Select a footer layout default. Foreach pages, you can change the layout by page option', 'funvita' ),
 			'options'  => array(
 				'1' => array(
-					'alt' => 'Footer layout 1',
+					'alt' => esc_html__( 'Footer layout 1', 'funvita' ),
 					'img' => get_template_directory_uri() . '/assets/images/footers/footer-v1.jpg'
 				),
 				'2' => array(
-					'alt' => 'Footer layout 2',
+					'alt' => esc_html__( 'Footer layout 2', 'funvita' ),
 					'img' => get_template_directory_uri() . '/assets/images/footers/footer-v2.jpg'
 				)
 			),
@@ -38,7 +38,7 @@ Redux::setSection( $opt_name, array(
 			'subtitle' => esc_html__( 'This is the options you can change for footer style 01', 'funvita' ),
 			'options'  => array(
 				'1' => array(
-					'alt' => 'Footer layout 1',
+					'alt' => esc_html__( 'Footer layout 1', 'funvita' ),
 					'img' => get_template_directory_uri() . '/assets/images/footers/footer-v1.jpg'
 				)
 			),
@@ -461,7 +461,7 @@ Redux::setSection( $opt_name, array(
 			'subtitle' => esc_html__( 'This is the options you can change for footer style 02', 'funvita' ),
 			'options'  => array(
 				'1' => array(
-					'alt' => 'Footer layout 2',
+					'alt' => esc_html__( 'Footer layout 2', 'funvita' ),
 					'img' => get_template_directory_uri() . '/assets/images/footers/footer-v2.jpg'
 				)
 			),
