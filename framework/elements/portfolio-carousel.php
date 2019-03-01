@@ -182,7 +182,7 @@ class WPBakeryShortCode_bt_portfolio_carousel extends WPBakeryShortCode {
 		} else {
 			esc_html_e('Post not found!', 'funvita');
 		}
-		wp_reset_query();
+		wp_reset_postdata();
 		return ob_get_clean();
 	}
 }

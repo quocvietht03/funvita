@@ -934,10 +934,7 @@
 			left: 0;
 			width: 100%;
 			height: 4px;
-			background: @main-color;
-			-webkit-background-image: linear-gradient(58deg, #407bdb, #4431a6);
-			-ms-background-image: linear-gradient(58deg, #407bdb, #4431a6);
-			background-image: linear-gradient(58deg, #407bdb, #4431a6);
+			.backgroundLinearGradient (120deg,@main-color,@secondary-color);
 			opacity: 0;
 		}
 		.bt-icon{
@@ -970,13 +967,11 @@
 		}
 		.bt-price{
 			font-size: 46px;
-			font-weight: 400;
 			line-height: 40px;
-			color: #262b2f;
 			margin: 20px 0;
 		}
 		.bt-time{
-			font-size: 14px;
+			font-size: 15px;
 			font-style: italic;
 			margin-bottom: 30px;
 		}
@@ -984,7 +979,6 @@
 			list-style: none;
 			font-size: 15px;
 			line-height: 26px;
-			color: #585858;
 			margin: 0 0 30px;
 			padding: 30px 0 0;
 			border-top: 1px solid #e2ebf1;
@@ -1010,10 +1004,10 @@
 		.bt-btn-order{
 			display: inline-block;
 			font-size: 12px;
-			font-weight: 400;
+			font-weight: 700;
 			line-height: 22px;
 			text-transform: uppercase;
-			color: #262b2f;
+			color: #0f3057;
 			background: #ffffff;
 			padding: 8px 25px;
 			border: 1px solid #e2ebf1;
@@ -1026,7 +1020,7 @@
 			}
 		}
 		&:hover{
-			border: none;
+			border-color: #ffffff;
 			.dropShadow (0, 10px, 30px, 0, fadeout(#376162, 85));
 			&:before{
 				opacity: 1;
@@ -4455,7 +4449,7 @@
 .bt-counter-element{
 	text-align: center;
 	.bt-icon{
-		margin-bottom: 30px;
+		margin-bottom: 20px;
 		i{
 			font-size: 100px;
 			color: transparent;
@@ -4472,8 +4466,8 @@
 	.bt-number-wrap{
 		font-size: 60px;
 		font-weight: 700;
-		line-height: 60px;
-		margin-bottom: 10px;
+		line-height: 70px;
+		margin-bottom: 15px;
 	}
 	.bt-title{
 		font-size: 16px;

@@ -323,8 +323,9 @@ if (!function_exists('funvita_page_breadcrumb')) {
 					echo ' ' . $delimiter . ' ' . '<span class="current">' . get_the_title() . '</span>';
 				}
 			}else{
-				$cat = get_the_category(); $cat = $cat[0];
-				$cats = get_category_parents($cat, TRUE, ' ' . $delimiter . ' ');
+				$cat = get_the_category();
+				$ID = $cat[0]->cat_ID;
+				$cats = get_category_parents($ID, TRUE, ' ' . $delimiter . ' ', FALSE );
 				echo ''.$cats;
 				echo '<span class="current">' . get_the_title() . '</span>';
 			}

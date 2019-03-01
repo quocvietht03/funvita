@@ -170,7 +170,7 @@ Redux::setSection( $opt_name, array(
 				'background-color' => '#015dc7',
 			),
 			'required' 		=> array('site_loading' , '=', '1'),
-			'output'    => array('.bt_site_loading')
+			'output'    => array('.bt-site-loading')
 		),
 		array(
 			'id'       => 'nav_dots_style',

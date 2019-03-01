@@ -101,7 +101,7 @@ class WPBakeryShortCode_bt_counter extends WPBakeryShortCode {
 			<div class="<?php echo esc_attr(implode(' ', $css_class)); ?>" <?php echo esc_attr(implode(' ', $wrapper_attributes)); ?>>
 				<?php
 					if($icon) echo '<div class="bt-icon">'.$icon.'</div>';
-					if($number) echo '<h3 class="bt-number-wrap" '.implode(' ', $number_attributes).'><span class="bt-prefix">'.esc_attr($prefix).'</span><span class="bt-number">'.number_format($number).'</span><span class="bt-subfix">'.esc_attr($subfix).'</span></h2>';
+					if($number) echo '<h3 class="bt-number-wrap" '.implode(' ', $number_attributes).'><span class="bt-prefix">'.esc_attr($prefix).'</span><span class="bt-number">'.number_format($number).'</span><span class="bt-subfix">'.esc_attr($subfix).'</span></h3>';
 					if($title) echo '<div class="bt-title" '.implode(' ', $title_attributes).'>'.$title.'</div>';
 				?>
 			</div>
