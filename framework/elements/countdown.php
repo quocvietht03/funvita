@@ -8,7 +8,7 @@ class WPBakeryShortCode_bt_countdown extends WPBakeryShortCode {
 			'el_id' => '',
 			'el_class' => '',
 			
-			'style' => 'style1',
+			'style' => 'default',
 			'date_end' => '2018/12/1 0:0:0',
 			'format' => 'ODHMS',
 			
@@ -20,6 +20,7 @@ class WPBakeryShortCode_bt_countdown extends WPBakeryShortCode {
 			$this->getExtraClass( $el_class ) . $this->getCSSAnimation( $css_animation ),
 			'bt-element',
 			'bt-countdown-element',
+			$style,
 			apply_filters( VC_SHORTCODE_CUSTOM_CSS_FILTER_TAG, vc_shortcode_custom_css_class( $css, ' ' ), $this->settings['base'], $atts )
 		);
 		
@@ -79,6 +80,16 @@ vc_map(array(
 	'icon' => 'bt-icon',
     'params' => array(
 		vc_map_add_css_animation(),
+		array(
+			'type' => 'dropdown',
+			'heading' => esc_html__('Style', 'funvita'),
+			'param_name' => 'style',
+			'value' => array(
+				esc_html__('Default', 'funvita') => 'default',
+				esc_html__('Style 1', 'funvita') => 'style1'
+			),
+			'description' => esc_html__('Select layout style in this elment.', 'funvita')
+		),
 		array(
 			'type' => 'textfield',
 			'heading' => esc_html__('Element ID', 'funvita'),

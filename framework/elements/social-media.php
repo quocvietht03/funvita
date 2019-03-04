@@ -45,6 +45,7 @@ class WPBakeryShortCode_bt_social_media extends WPBakeryShortCode {
 						$link_before = $link_after = '';
 						$link_attributes = array();
 						$link_attributes[] = 'class="bt-link"';
+						$link_attributes[] = 'data-icon="'.esc_attr($icon_class).'"';
 						if(!empty($link)){
 							if ( ! empty( $link['url'] ) ) {
 								$link_attributes[] = 'href="' . esc_attr( $link['url'] ) . '"';
@@ -61,9 +62,12 @@ class WPBakeryShortCode_bt_social_media extends WPBakeryShortCode {
 							if ( ! empty( $link['title'] ) ) {
 								$link_attributes[] = 'title="'.esc_attr($link['title']).'"';
 							}
-							$link_before = '<a '.implode(' ', $link_attributes).'>';
-							$link_after = '</a>';
+						}else{
+							$link_attributes[] = 'href="#"';
 						}
+						
+						$link_before = '<a '.implode(' ', $link_attributes).'>';
+						$link_after = '</a>';
 						
 						if($icon){
 							echo '<li>'.$link_before.$icon.$link_after.'</li>';

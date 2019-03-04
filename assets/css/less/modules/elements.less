@@ -4477,42 +4477,102 @@
 
 /* Countdown */
 .bt-countdown-element{
-	.countdown-row {
-		display: block;
-		margin-bottom: 30px;
-		.countdown-section {
-			position: relative;
-			display: inline-block;
-			margin-right: 30px;
-			padding-right: 30px;
-			&:not(:last-child){
-				&:after{
-					content: ":";
-					position: absolute;
-					top: 0;
-					right: 0;
-					font-size: 40px;
-					font-weight: 700;
-					line-height: 50px;
-					color: @main-color;
+	&.default{
+		.countdown-row {
+			display: block;
+			margin-bottom: 30px;
+			.countdown-section {
+				position: relative;
+				display: inline-block;
+				margin-right: 30px;
+				padding-right: 30px;
+				&:not(:last-child){
+					&:after{
+						content: ":";
+						position: absolute;
+						top: 0;
+						right: 0;
+						font-size: 40px;
+						font-weight: 700;
+						line-height: 50px;
+						color: @main-color;
+					}
+				}
+				
+				> span {
+					color: #9fa4af;
+					display: block;
+					&.countdown-amount {
+						font-size: 40px;
+						font-weight: 700;
+						line-height: 50px;
+						letter-spacing: 0;
+						color: #e4edf3;
+					}
+					&.countdown-period {
+						font-size: 16px;
+						font-weight: 700;
+						line-height: 24px;
+						letter-spacing: 0;
+					}
 				}
 			}
-			
-			> span {
-				color: #9fa4af;
-				display: block;
-				&.countdown-amount {
-					font-size: 40px;
-					font-weight: 700;
-					line-height: 50px;
-					letter-spacing: 0;
-					color: #2e2e2e;
+		}
+	}
+	&.style1{
+		text-align: center;
+		margin-bottom: 30px;
+		.countdown-row {
+			display: block;
+			margin-bottom: 30px;
+			.countdown-section {
+				position: relative;
+				display: inline-block;
+				width: 170px;
+				height: 180px;
+				margin: 30px;
+				padding: 30px;
+				.backgroundLinearGradient (120deg,@secondary-color,@main-color);
+				&:before {
+					content: "";
+					position: absolute;
+					top: 5px;
+					left: 5px;
+					width: ~"calc(100% - 10px)";
+					height: ~"calc(100% - 10px)";
+					border: 2px solid #e4edf3;
 				}
-				&.countdown-period {
-					font-size: 16px;
-					font-weight: 700;
-					line-height: 24px;
-					letter-spacing: 0;
+				&:after {
+					content: "";
+					position: absolute;
+					top: 95px;
+					left: 50%;
+					width: 35px;
+					height: 3px;
+					background: #e4edf3;
+					-webkit-transform: translateX(-50%);
+					-moz-transform: translateX(-50%);
+					-o-transform: translateX(-50%);
+					-ms-transform: translateX(-50%);
+					transform: translateX(-50%);
+				}
+				> span {
+					color: #ffffff;
+					display: block;
+					&.countdown-amount {
+						font-size: 48px;
+						font-weight: 700;
+						line-height: 60px;
+						letter-spacing: 0;
+					}
+					&.countdown-period {
+						font-size: 16px;
+						font-weight: 700;
+						line-height: 24px;
+						letter-spacing: 0.2em;
+						text-transform: uppercase;
+						padding-top: 25px;
+					}
 				}
 			}
 		}
