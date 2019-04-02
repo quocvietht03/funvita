@@ -1359,7 +1359,7 @@
 			}
 		}
 	}
-	@media(min-height: 680px){
+	@media(min-height: 680px) and (min-width: @screen-md - 1){
 		.bt-coming-soon-inner{
 			position: fixed;
 			top: 50%;
@@ -1382,6 +1382,9 @@
 	@media(max-width: @screen-sm - 1){
 		.wpb_single_image.vc_align_left,h3.vc_custom_heading, .bt-social-media-element{
 			text-align: center !important;
+		}
+		.bt-coming-soon-inner{
+			padding-top: 30px !important;
 		}
 	}
 }
