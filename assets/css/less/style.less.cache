@@ -1,4 +1,4 @@
-a:4:{s:4:"root";s:76:"C:\xampp\htdocs\funvita/wp-content/themes/funvita/assets/css/less/style.less";s:8:"compiled";s:1271704:"/* Header 1 */
+a:4:{s:4:"root";s:76:"C:\xampp\htdocs\funvita/wp-content/themes/funvita/assets/css/less/style.less";s:8:"compiled";s:1271738:"/* Header 1 */
 /* Header 2 */
 /* Header 3 */
 /* Header One Page */
@@ -2515,10 +2515,7 @@ blockquote:before {
 .center { text-align:center; }
 .center th, .center tr, .center td { text-align:center; }
 body .monster-widget-just-testing option { width:340px; }
-iframe, embed {
-  width:100%;
-  height:auto;
-}
+iframe, embed { width:100%; }
 iframe.twitter-tweet, embed.twitter-tweet {
   width:100% !important;
   min-height:unset;
@@ -22943,6 +22940,10 @@ img.alignright { margin:0 0 20px 20px; }
     animation-delay:0s !important;
   }
 }
+.bt-relative {
+  position:relative;
+  z-index:9;
+}
 .bt-text-ellipsis {
   text-overflow:ellipsis;
   white-space:nowrap;
@@ -23203,4 +23204,4 @@ body #site_backtop:hover, body #site_backtop:focus {
   line-height:30px;
   margin-bottom:40px;
 }
-";s:5:"files";a:23:{s:76:"C:\xampp\htdocs\funvita\wp-content\themes\funvita\assets\css\less\style.less";i:1544553532;s:80:"C:\xampp\htdocs\funvita\wp-content\themes\funvita\assets\css\less\variables.less";i:1548814601;s:77:"C:\xampp\htdocs\funvita\wp-content\themes\funvita\assets\css\less\mixins.less";i:1546428560;s:80:"C:\xampp\htdocs\funvita\wp-content\themes\funvita\assets\css\less\animation.less";i:1545306784;s:91:"C:\xampp\htdocs\funvita\wp-content\themes\funvita\assets\css\less\component\typography.less";i:1544553532;s:86:"C:\xampp\htdocs\funvita\wp-content\themes\funvita\assets\css\less\component\color.less";i:1544553532;s:86:"C:\xampp\htdocs\funvita\wp-content\themes\funvita\assets\css\less\component\input.less";i:1548814601;s:85:"C:\xampp\htdocs\funvita\wp-content\themes\funvita\assets\css\less\component\icon.less";i:1544553532;s:87:"C:\xampp\htdocs\funvita\wp-content\themes\funvita\assets\css\less\component\button.less";i:1548814601;s:85:"C:\xampp\htdocs\funvita\wp-content\themes\funvita\assets\css\less\component\util.less";i:1544553532;s:88:"C:\xampp\htdocs\funvita\wp-content\themes\funvita\assets\css\less\component\section.less";i:1551686093;s:85:"C:\xampp\htdocs\funvita\wp-content\themes\funvita\assets\css\less\component\unit.less";i:1549007549;s:85:"C:\xampp\htdocs\funvita\wp-content\themes\funvita\assets\css\less\modules\header.less";i:1550470484;s:87:"C:\xampp\htdocs\funvita\wp-content\themes\funvita\assets\css\less\modules\titlebar.less";i:1550821940;s:85:"C:\xampp\htdocs\funvita\wp-content\themes\funvita\assets\css\less\modules\footer.less";i:1550481869;s:87:"C:\xampp\htdocs\funvita\wp-content\themes\funvita\assets\css\less\modules\elements.less";i:1551684483;s:83:"C:\xampp\htdocs\funvita\wp-content\themes\funvita\assets\css\less\modules\blog.less";i:1550471052;s:88:"C:\xampp\htdocs\funvita\wp-content\themes\funvita\assets\css\less\modules\portfolio.less";i:1548817560;s:83:"C:\xampp\htdocs\funvita\wp-content\themes\funvita\assets\css\less\modules\team.less";i:1547796466;s:90:"C:\xampp\htdocs\funvita\wp-content\themes\funvita\assets\css\less\modules\testimonial.less";i:1544553532;s:87:"C:\xampp\htdocs\funvita\wp-content\themes\funvita\assets\css\less\modules\services.less";i:1547796466;s:83:"C:\xampp\htdocs\funvita\wp-content\themes\funvita\assets\css\less\modules\shop.less";i:1547025230;s:75:"C:\xampp\htdocs\funvita\wp-content\themes\funvita\assets\css\less\main.less";i:1550821878;}s:7:"updated";i:1559032024;}
+";s:5:"files";a:23:{s:76:"C:\xampp\htdocs\funvita\wp-content\themes\funvita\assets\css\less\style.less";i:1544553532;s:80:"C:\xampp\htdocs\funvita\wp-content\themes\funvita\assets\css\less\variables.less";i:1548814601;s:77:"C:\xampp\htdocs\funvita\wp-content\themes\funvita\assets\css\less\mixins.less";i:1546428560;s:80:"C:\xampp\htdocs\funvita\wp-content\themes\funvita\assets\css\less\animation.less";i:1545306784;s:91:"C:\xampp\htdocs\funvita\wp-content\themes\funvita\assets\css\less\component\typography.less";i:1544553532;s:86:"C:\xampp\htdocs\funvita\wp-content\themes\funvita\assets\css\less\component\color.less";i:1544553532;s:86:"C:\xampp\htdocs\funvita\wp-content\themes\funvita\assets\css\less\component\input.less";i:1548814601;s:85:"C:\xampp\htdocs\funvita\wp-content\themes\funvita\assets\css\less\component\icon.less";i:1544553532;s:87:"C:\xampp\htdocs\funvita\wp-content\themes\funvita\assets\css\less\component\button.less";i:1548814601;s:85:"C:\xampp\htdocs\funvita\wp-content\themes\funvita\assets\css\less\component\util.less";i:1544553532;s:88:"C:\xampp\htdocs\funvita\wp-content\themes\funvita\assets\css\less\component\section.less";i:1551686093;s:85:"C:\xampp\htdocs\funvita\wp-content\themes\funvita\assets\css\less\component\unit.less";i:1574221132;s:85:"C:\xampp\htdocs\funvita\wp-content\themes\funvita\assets\css\less\modules\header.less";i:1550470484;s:87:"C:\xampp\htdocs\funvita\wp-content\themes\funvita\assets\css\less\modules\titlebar.less";i:1550821940;s:85:"C:\xampp\htdocs\funvita\wp-content\themes\funvita\assets\css\less\modules\footer.less";i:1550481869;s:87:"C:\xampp\htdocs\funvita\wp-content\themes\funvita\assets\css\less\modules\elements.less";i:1551684483;s:83:"C:\xampp\htdocs\funvita\wp-content\themes\funvita\assets\css\less\modules\blog.less";i:1550471052;s:88:"C:\xampp\htdocs\funvita\wp-content\themes\funvita\assets\css\less\modules\portfolio.less";i:1548817560;s:83:"C:\xampp\htdocs\funvita\wp-content\themes\funvita\assets\css\less\modules\team.less";i:1547796466;s:90:"C:\xampp\htdocs\funvita\wp-content\themes\funvita\assets\css\less\modules\testimonial.less";i:1544553532;s:87:"C:\xampp\htdocs\funvita\wp-content\themes\funvita\assets\css\less\modules\services.less";i:1547796466;s:83:"C:\xampp\htdocs\funvita\wp-content\themes\funvita\assets\css\less\modules\shop.less";i:1547025230;s:75:"C:\xampp\htdocs\funvita\wp-content\themes\funvita\assets\css\less\main.less";i:1574221144;}s:7:"updated";i:1574665395;}

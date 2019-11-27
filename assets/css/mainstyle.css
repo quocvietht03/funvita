@@ -2515,10 +2515,7 @@ blockquote:before {
 .center { text-align:center; }
 .center th, .center tr, .center td { text-align:center; }
 body .monster-widget-just-testing option { width:340px; }
-iframe, embed {
-  width:100%;
-  height:auto;
-}
+iframe, embed { width:100%; }
 iframe.twitter-tweet, embed.twitter-tweet {
   width:100% !important;
   min-height:unset;
@@ -22942,6 +22939,10 @@ img.alignright { margin:0 0 20px 20px; }
     -webkit-animation-delay:0s !important;
     animation-delay:0s !important;
   }
+}
+.bt-relative {
+  position:relative;
+  z-index:9;
 }
 .bt-text-ellipsis {
   text-overflow:ellipsis;
