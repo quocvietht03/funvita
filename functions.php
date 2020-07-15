@@ -30,6 +30,8 @@ if (!function_exists('funvita_enqueue_scripts')) {
 		global $funvita_options;
 
 		wp_enqueue_style('funvita-fonts', funvita_fonts_url(), false );
+		wp_enqueue_style('funvita-external-fonts', get_template_directory_uri().'/framework/options/fonts.css', false );
+		
 		/* Bootstrap */
 		wp_enqueue_style('bootstrap', get_template_directory_uri().'/assets/vendors/bootstrap/css/bootstrap.min.css', array(), false);
 		wp_enqueue_script('bootstrap', get_template_directory_uri().'/assets/vendors/bootstrap/js/bootstrap.min.js', array('jquery'), '', true);
