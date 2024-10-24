@@ -159,7 +159,7 @@ function funvita_autoCompileLess($inputFile, $outputFile) {
 function funvita_addLessStyle() {
 	global $funvita_options;
 	
-	$less_design = (isset($funvita_options['less_design'])&&$funvita_options['less_design']) ? $funvita_options['less_design'] : true; 
+	$less_design = (isset($funvita_options['less_design'])&&$funvita_options['less_design']) ? $funvita_options['less_design'] : false; 
 	if($less_design){
 		try {
 			$inputFile = get_template_directory().'/assets/css/less/style.less';

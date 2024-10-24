@@ -66,6 +66,7 @@ function funvita_register_required_plugins() {
 		array(
 			'name'         => esc_html__('Unyson', 'funvita'),
 			'slug'         => 'unyson',
+			'source'       => $root.'unyson.zip',
 			'required'     => true,
 		),
 		array(

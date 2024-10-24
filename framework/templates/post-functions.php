@@ -239,20 +239,19 @@ if ( ! function_exists( 'funvita_post_media_render' ) ) {
 /* Post Meta */
 if ( ! function_exists( 'funvita_post_meta_render' ) ) {
 	function funvita_post_meta_render() {
+
 		ob_start();
-		if($post_meta){
-			?>
-				<ul class="bt-meta">
-					<li><?php echo '<i class="fa fa-user"></i> '.esc_html__('by ', 'funvita'); ?><a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>"><?php echo get_the_author(); ?></a></li>
-					<li><?php echo '<i class="fa fa-calendar"></i> '.esc_html__('Posted on ', 'funvita'); ?><a href="<?php the_permalink(); ?>"><?php echo get_the_date(get_option('date_format')); ?></a></li>
-					<?php if(comments_open()){ ?>
-						<li><i class="fa fa-comment"></i> <a href="<?php comments_link(); ?>"><?php comments_number( esc_html__('0 Comments', 'funvita'), esc_html__('1 Comment', 'funvita'), esc_html__('% Comments', 'funvita') ); ?></a></li>
-					<?php } ?>
-					<?php the_terms( get_the_ID(), 'category', '<li class="bt-term"><i class="fa fa-folder"></i> '.esc_html__('in ', 'funvita'), ', ', '</li>' ); ?>
-					
-				</ul>
-			<?php
-		}
+		?>
+			<ul class="bt-meta">
+				<li><?php echo '<i class="fa fa-user"></i> '.esc_html__('by ', 'funvita'); ?><a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>"><?php echo get_the_author(); ?></a></li>
+				<li><?php echo '<i class="fa fa-calendar"></i> '.esc_html__('Posted on ', 'funvita'); ?><a href="<?php the_permalink(); ?>"><?php echo get_the_date(get_option('date_format')); ?></a></li>
+				<?php if(comments_open()){ ?>
+					<li><i class="fa fa-comment"></i> <a href="<?php comments_link(); ?>"><?php comments_number( esc_html__('0 Comments', 'funvita'), esc_html__('1 Comment', 'funvita'), esc_html__('% Comments', 'funvita') ); ?></a></li>
+				<?php } ?>
+				<?php the_terms( get_the_ID(), 'category', '<li class="bt-term"><i class="fa fa-folder"></i> '.esc_html__('in ', 'funvita'), ', ', '</li>' ); ?>
+				
+			</ul>
+		<?php
 		return ob_get_clean();
 	} 
 }
